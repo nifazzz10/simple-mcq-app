@@ -1,0 +1,62 @@
+.mcq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F4F4F4;
+  }
+  
+  .mcq-question-section {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .mcq-question-count {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .mcq-question-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .mcq-answer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mcq-answer-button {
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .mcq-answer-button:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+  
+  .mcq-score-section {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .mcq-answer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .scores{
+    display: flex;
+    flex-direction: column;
+  }
